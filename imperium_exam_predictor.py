@@ -35,7 +35,7 @@ def user_input_features():
 
     global student_type
     
-    Age = st.sidebar.number_input('Age', 15, 30)
+    Age = 15
     gender = st.sidebar.selectbox('Gender', ['Male', 'Female'])
     gender = 1 if gender == 'Male' else 0
     
